@@ -9,9 +9,9 @@ import android.util.Log;
 import android.widget.Toast;
 
 import com.alibaba.fastjson.JSON;
-import com.yuzhi.fine.R;
-import com.yuzhi.fine.common.AppContext;
-import com.yuzhi.fine.model.SearchParam;
+import com.json.base.R;
+import com.json.base.common.AppContext;
+import com.json.base.model.SearchParam;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;

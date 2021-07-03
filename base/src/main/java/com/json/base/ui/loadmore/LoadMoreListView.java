@@ -13,8 +13,8 @@ import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.yuzhi.fine.R;
-import com.yuzhi.fine.http.HttpClient;
+import com.json.base.R;
+import com.json.base.http.HttpClient;
 
 import java.util.List;
 

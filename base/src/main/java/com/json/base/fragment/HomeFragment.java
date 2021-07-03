@@ -5,9 +5,9 @@ import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import com.yuzhi.fine.ui.pulltorefresh.PullToRefreshBase;
-import com.yuzhi.fine.ui.pulltorefresh.PullToRefreshListFragment;
-import com.yuzhi.fine.ui.pulltorefresh.PullToRefreshListView;
+import com.json.base.ui.pulltorefresh.PullToRefreshBase;
+import com.json.base.ui.pulltorefresh.PullToRefreshListFragment;
+import com.json.base.ui.pulltorefresh.PullToRefreshListView;
 
 import java.util.Arrays;
 import java.util.LinkedList;

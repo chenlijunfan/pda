@@ -6,8 +6,8 @@ import android.view.View.OnClickListener;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.yuzhi.fine.R;
-import com.yuzhi.fine.http.HttpClient;
+import com.json.base.R;
+import com.json.base.http.HttpClient;
 
 public class ProgressBarHelper {
     public interface ProgressBarClickListener {

@@ -1,7 +1,7 @@
 package com.json.base.model;
 
 import com.alibaba.fastjson.JSON;
-import com.yuzhi.fine.common.NotObfuscateInterface;
+import com.json.base.common.NotObfuscateInterface;
 
 import java.io.Serializable;
 

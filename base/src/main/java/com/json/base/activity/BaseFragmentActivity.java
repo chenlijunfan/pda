@@ -3,13 +3,14 @@ package com.json.base.activity;
 import android.annotation.TargetApi;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.v4.app.FragmentActivity;
 import android.view.Window;
 import android.view.WindowManager;
 
+import androidx.fragment.app.FragmentActivity;
+
+import com.json.base.R;
+import com.json.base.common.AppManager;
 import com.readystatesoftware.systembartint.SystemBarTintManager;
-import com.yuzhi.fine.R;
-import com.yuzhi.fine.common.AppManager;
 
 public class BaseFragmentActivity extends FragmentActivity {
 

@@ -7,7 +7,7 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
 
-import com.yuzhi.fine.common.AppContext;
+import com.json.base.common.AppContext;
 
 
 /**

@@ -3,7 +3,7 @@ package com.json.base.ui.pulltorefresh;
 import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
 
-import com.yuzhi.fine.ui.pulltorefresh.internal.LoadingLayout;
+import com.json.base.ui.pulltorefresh.internal.LoadingLayout;
 
 import java.util.HashSet;
 

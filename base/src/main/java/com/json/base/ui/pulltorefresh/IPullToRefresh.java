@@ -18,10 +18,10 @@ package com.json.base.ui.pulltorefresh;
 import android.view.View;
 import android.view.animation.Interpolator;
 
-import com.yuzhi.fine.ui.pulltorefresh.PullToRefreshBase.Mode;
-import com.yuzhi.fine.ui.pulltorefresh.PullToRefreshBase.OnPullEventListener;
-import com.yuzhi.fine.ui.pulltorefresh.PullToRefreshBase.OnRefreshListener2;
-import com.yuzhi.fine.ui.pulltorefresh.PullToRefreshBase.State;
+import com.json.base.ui.pulltorefresh.PullToRefreshBase.Mode;
+import com.json.base.ui.pulltorefresh.PullToRefreshBase.OnPullEventListener;
+import com.json.base.ui.pulltorefresh.PullToRefreshBase.OnRefreshListener2;
+import com.json.base.ui.pulltorefresh.PullToRefreshBase.State;
 
 public interface IPullToRefresh<T extends View> {
 

@@ -3,7 +3,7 @@ package com.json.base.utils;
 import android.content.Context;
 import android.content.SharedPreferences.Editor;
 
-import com.yuzhi.fine.common.AppContext;
+import com.json.base.common.AppContext;
 
 
 public class SharedPreferences {

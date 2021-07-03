@@ -19,9 +19,9 @@ import android.content.Context;
 import android.media.MediaPlayer;
 import android.view.View;
 
-import com.yuzhi.fine.ui.pulltorefresh.PullToRefreshBase;
-import com.yuzhi.fine.ui.pulltorefresh.PullToRefreshBase.Mode;
-import com.yuzhi.fine.ui.pulltorefresh.PullToRefreshBase.State;
+import com.json.base.ui.pulltorefresh.PullToRefreshBase;
+import com.json.base.ui.pulltorefresh.PullToRefreshBase.Mode;
+import com.json.base.ui.pulltorefresh.PullToRefreshBase.State;
 
 import java.util.HashMap;
 

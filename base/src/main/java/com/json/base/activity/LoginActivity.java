@@ -3,8 +3,8 @@ package com.json.base.activity;
 import android.os.Bundle;
 import android.view.View;
 
-import com.yuzhi.fine.R;
-import com.yuzhi.fine.ui.swipebacklayout.SwipeBackActivity;
+import com.json.base.R;
+import com.json.base.ui.swipebacklayout.SwipeBackActivity;
 
 
 /**

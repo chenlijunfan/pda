@@ -3,12 +3,12 @@ package com.json.base.db.test;
 import android.test.AndroidTestCase;
 
 import com.j256.ormlite.dao.Dao;
-import com.yuzhi.fine.db.DatabaseHelper;
-import com.yuzhi.fine.db.dao.ArticleDao;
-import com.yuzhi.fine.db.dao.UserDao;
-import com.yuzhi.fine.db.entity.Article;
-import com.yuzhi.fine.db.entity.Student;
-import com.yuzhi.fine.db.entity.User;
+import com.json.base.db.DatabaseHelper;
+import com.json.base.db.dao.ArticleDao;
+import com.json.base.db.dao.UserDao;
+import com.json.base.db.entity.Article;
+import com.json.base.db.entity.Student;
+import com.json.base.db.entity.User;
 
 import java.sql.SQLException;
 import java.util.List;

@@ -4,7 +4,7 @@ package com.json.base.ui.swipebacklayout;
 import android.os.Bundle;
 import android.view.View;
 
-import com.yuzhi.fine.activity.BaseFragmentActivity;
+import com.json.base.activity.BaseFragmentActivity;
 
 public class SwipeBackActivity extends BaseFragmentActivity implements SwipeBackActivityBase {
     private SwipeBackActivityHelper mHelper;

@@ -9,10 +9,10 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.yuzhi.fine.R;
-import com.yuzhi.fine.ui.loopviewpager.AutoLoopViewPager;
-import com.yuzhi.fine.ui.swipebacklayout.SwipeBackActivity;
-import com.yuzhi.fine.ui.viewpagerindicator.CirclePageIndicator;
+import com.json.base.R;
+import com.json.base.ui.loopviewpager.AutoLoopViewPager;
+import com.json.base.ui.swipebacklayout.SwipeBackActivity;
+import com.json.base.ui.viewpagerindicator.CirclePageIndicator;
 
 import java.util.ArrayList;
 import java.util.Arrays;

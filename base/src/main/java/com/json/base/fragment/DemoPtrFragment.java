@@ -1,7 +1,6 @@
 package com.json.base.fragment;
 
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,20 +8,22 @@ import android.widget.AbsListView;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
+import androidx.fragment.app.Fragment;
+
 import com.alibaba.fastjson.JSONArray;
+import com.json.base.R;
+import com.json.base.activity.MainActivity;
+import com.json.base.http.HttpClient;
+import com.json.base.http.HttpResponseHandler;
+import com.json.base.http.RestApiResponse;
+import com.json.base.model.SearchParam;
+import com.json.base.model.SearchShop;
+import com.json.base.ui.UIHelper;
+import com.json.base.ui.loadmore.LoadMoreListView;
+import com.json.base.ui.quickadapter.BaseAdapterHelper;
+import com.json.base.ui.quickadapter.QuickAdapter;
+import com.json.base.utils.DeviceUtil;
 import com.squareup.picasso.Picasso;
-import com.yuzhi.fine.R;
-import com.yuzhi.fine.activity.MainActivity;
-import com.yuzhi.fine.http.HttpClient;
-import com.yuzhi.fine.http.HttpResponseHandler;
-import com.yuzhi.fine.http.RestApiResponse;
-import com.yuzhi.fine.model.SearchParam;
-import com.yuzhi.fine.model.SearchShop;
-import com.yuzhi.fine.ui.UIHelper;
-import com.yuzhi.fine.ui.loadmore.LoadMoreListView;
-import com.yuzhi.fine.ui.quickadapter.BaseAdapterHelper;
-import com.yuzhi.fine.ui.quickadapter.QuickAdapter;
-import com.yuzhi.fine.utils.DeviceUtil;
 
 import java.util.List;
 

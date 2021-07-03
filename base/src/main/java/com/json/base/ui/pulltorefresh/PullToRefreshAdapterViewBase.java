@@ -31,9 +31,9 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.FrameLayout;
 import android.widget.ListAdapter;
 
-import com.yuzhi.fine.R;
-import com.yuzhi.fine.ui.pulltorefresh.internal.EmptyViewMethodAccessor;
-import com.yuzhi.fine.ui.pulltorefresh.internal.IndicatorLayout;
+import com.json.base.R;
+import com.json.base.ui.pulltorefresh.internal.EmptyViewMethodAccessor;
+import com.json.base.ui.pulltorefresh.internal.IndicatorLayout;
 
 public abstract class PullToRefreshAdapterViewBase<T extends AbsListView> extends PullToRefreshBase<T> implements
         OnScrollListener {

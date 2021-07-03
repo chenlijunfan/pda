@@ -5,9 +5,9 @@ import android.content.Context;
 import android.content.Intent;
 import android.widget.Toast;
 
-import com.yuzhi.fine.activity.HouseDetailActivity;
-import com.yuzhi.fine.activity.LoginActivity;
-import com.yuzhi.fine.activity.MainActivity;
+import com.json.base.activity.HouseDetailActivity;
+import com.json.base.activity.LoginActivity;
+import com.json.base.activity.MainActivity;
 
 /**
  * 应用程序UI工具包：封装UI相关的一些操作

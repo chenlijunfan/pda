@@ -1,17 +1,19 @@
 package com.json.base.fragment;
 
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.view.ViewPager;
 import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.yuzhi.fine.R;
-import com.yuzhi.fine.ui.tabstrip.PagerSlidingTabStrip;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentPagerAdapter;
+import androidx.viewpager.widget.ViewPager;
+
+import com.json.base.R;
+import com.json.base.ui.tabstrip.PagerSlidingTabStrip;
+
 
 public class MainPagerFragment extends Fragment {
 

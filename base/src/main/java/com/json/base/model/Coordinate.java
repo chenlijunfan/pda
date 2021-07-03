@@ -1,6 +1,6 @@
 package com.json.base.model;
 
-import com.yuzhi.fine.common.NotObfuscateInterface;
+import com.json.base.common.NotObfuscateInterface;
 
 import java.io.Serializable;
 

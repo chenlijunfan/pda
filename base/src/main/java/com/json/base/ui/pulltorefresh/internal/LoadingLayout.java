@@ -35,10 +35,10 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.yuzhi.fine.R;
-import com.yuzhi.fine.ui.pulltorefresh.ILoadingLayout;
-import com.yuzhi.fine.ui.pulltorefresh.PullToRefreshBase.Mode;
-import com.yuzhi.fine.ui.pulltorefresh.PullToRefreshBase.Orientation;
+import com.json.base.R;
+import com.json.base.ui.pulltorefresh.ILoadingLayout;
+import com.json.base.ui.pulltorefresh.PullToRefreshBase.Mode;
+import com.json.base.ui.pulltorefresh.PullToRefreshBase.Orientation;
 
 @SuppressLint("ViewConstructor")
 public abstract class LoadingLayout extends FrameLayout implements ILoadingLayout {

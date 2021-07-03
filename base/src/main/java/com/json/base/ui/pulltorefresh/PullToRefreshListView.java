@@ -31,10 +31,10 @@ import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.yuzhi.fine.R;
-import com.yuzhi.fine.http.HttpClient;
-import com.yuzhi.fine.ui.pulltorefresh.internal.EmptyViewMethodAccessor;
-import com.yuzhi.fine.ui.pulltorefresh.internal.LoadingLayout;
+import com.json.base.R;
+import com.json.base.http.HttpClient;
+import com.json.base.ui.pulltorefresh.internal.EmptyViewMethodAccessor;
+import com.json.base.ui.pulltorefresh.internal.LoadingLayout;
 
 import java.util.List;
 

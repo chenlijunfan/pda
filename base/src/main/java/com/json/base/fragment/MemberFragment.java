@@ -2,14 +2,15 @@ package com.json.base.fragment;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.yuzhi.fine.R;
-import com.yuzhi.fine.ui.UIHelper;
-import com.yuzhi.fine.ui.pulltozoomview.PullToZoomScrollViewEx;
+import androidx.fragment.app.Fragment;
+
+import com.json.base.R;
+import com.json.base.ui.UIHelper;
+import com.json.base.ui.pulltozoomview.PullToZoomScrollViewEx;
 
 public class MemberFragment extends Fragment {
 

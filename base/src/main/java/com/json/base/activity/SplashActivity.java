@@ -10,6 +10,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 import androidx.fragment.app.FragmentActivity;
+import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
 import com.json.base.R;

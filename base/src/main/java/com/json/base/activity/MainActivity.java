@@ -2,17 +2,19 @@
 package com.json.base.activity;
 
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
 import android.view.KeyEvent;
 import android.widget.RadioGroup;
 
-import com.yuzhi.fine.R;
-import com.yuzhi.fine.fragment.BufferKnifeFragment;
-import com.yuzhi.fine.fragment.MainPagerFragment;
-import com.yuzhi.fine.fragment.MemberFragment;
-import com.yuzhi.fine.ui.UIHelper;
+
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
+
+import com.json.base.R;
+import com.json.base.fragment.BufferKnifeFragment;
+import com.json.base.fragment.MainPagerFragment;
+import com.json.base.fragment.MemberFragment;
+import com.json.base.ui.UIHelper;
 
 import java.util.ArrayList;
 import java.util.Arrays;

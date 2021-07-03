@@ -34,12 +34,12 @@ import android.view.animation.Interpolator;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 
-import com.yuzhi.fine.R;
-import com.yuzhi.fine.ui.pulltorefresh.internal.FlipLoadingLayout;
-import com.yuzhi.fine.ui.pulltorefresh.internal.LoadingLayout;
-import com.yuzhi.fine.ui.pulltorefresh.internal.RotateLoadingLayout;
-import com.yuzhi.fine.ui.pulltorefresh.internal.Utils;
-import com.yuzhi.fine.ui.pulltorefresh.internal.ViewCompat;
+import com.json.base.R;
+import com.json.base.ui.pulltorefresh.internal.FlipLoadingLayout;
+import com.json.base.ui.pulltorefresh.internal.LoadingLayout;
+import com.json.base.ui.pulltorefresh.internal.RotateLoadingLayout;
+import com.json.base.ui.pulltorefresh.internal.Utils;
+import com.json.base.ui.pulltorefresh.internal.ViewCompat;
 
 public abstract class PullToRefreshBase<T extends View> extends LinearLayout implements IPullToRefresh<T> {
 
@@ -532,8 +532,8 @@ public abstract class PullToRefreshBase<T extends View> extends LinearLayout imp
     }
 
     /**
-     * @return Either {@link com.yuzhi.fine.ui.pulltorefresh.PullToRefreshBase.Orientation#VERTICAL} or
-     * {@link com.yuzhi.fine.ui.pulltorefresh.PullToRefreshBase.Orientation#HORIZONTAL} depending on the scroll direction.
+     * @return Either {@link com.json.base.ui.pulltorefresh.PullToRefreshBase.Orientation#VERTICAL} or
+     * {@link com.json.base.ui.pulltorefresh.PullToRefreshBase.Orientation#HORIZONTAL} depending on the scroll direction.
      */
     public abstract Orientation getPullToRefreshScrollDirection();
 
@@ -703,7 +703,7 @@ public abstract class PullToRefreshBase<T extends View> extends LinearLayout imp
 
     /**
      * Called when the UI has been to be updated to be in the
-     * {@link com.yuzhi.fine.ui.pulltorefresh.PullToRefreshBase.State#PULL_TO_REFRESH} state.
+     * {@link com.json.base.ui.pulltorefresh.PullToRefreshBase.State#PULL_TO_REFRESH} state.
      */
     protected void onPullToRefresh() {
         switch (mCurrentMode) {
@@ -721,7 +721,7 @@ public abstract class PullToRefreshBase<T extends View> extends LinearLayout imp
 
     /**
      * Called when the UI has been to be updated to be in the
-     * {@link com.yuzhi.fine.ui.pulltorefresh.PullToRefreshBase.State#REFRESHING} or {@link com.yuzhi.fine.ui.pulltorefresh.PullToRefreshBase.State#MANUAL_REFRESHING} state.
+     * {@link com.json.base.ui.pulltorefresh.PullToRefreshBase.State#REFRESHING} or {@link com.json.base.ui.pulltorefresh.PullToRefreshBase.State#MANUAL_REFRESHING} state.
      *
      * @param doScroll - Whether the UI should scroll for this event.
      */
@@ -765,7 +765,7 @@ public abstract class PullToRefreshBase<T extends View> extends LinearLayout imp
 
     /**
      * Called when the UI has been to be updated to be in the
-     * {@link com.yuzhi.fine.ui.pulltorefresh.PullToRefreshBase.State#RELEASE_TO_REFRESH} state.
+     * {@link com.json.base.ui.pulltorefresh.PullToRefreshBase.State#RELEASE_TO_REFRESH} state.
      */
     protected void onReleaseToRefresh() {
         switch (mCurrentMode) {
@@ -783,7 +783,7 @@ public abstract class PullToRefreshBase<T extends View> extends LinearLayout imp
 
     /**
      * Called when the UI has been to be updated to be in the
-     * {@link com.yuzhi.fine.ui.pulltorefresh.PullToRefreshBase.State#RESET} state.
+     * {@link com.json.base.ui.pulltorefresh.PullToRefreshBase.State#RESET} state.
      */
     protected void onReset() {
         mIsBeingDragged = false;
@@ -1362,7 +1362,7 @@ public abstract class PullToRefreshBase<T extends View> extends LinearLayout imp
         /**
          * Disables Pull-to-Refresh gesture handling, but allows manually
          * setting the Refresh state via
-         * {@link com.yuzhi.fine.ui.pulltorefresh.PullToRefreshBase#setRefreshing() setRefreshing()}.
+         * {@link com.json.base.ui.pulltorefresh.PullToRefreshBase#setRefreshing() setRefreshing()}.
          */
         MANUAL_REFRESH_ONLY(0x4);
 
@@ -1469,11 +1469,11 @@ public abstract class PullToRefreshBase<T extends View> extends LinearLayout imp
          *
          * @param refreshView - View which has had it's state change.
          * @param state       - The new state of View.
-         * @param direction   - One of {@link com.yuzhi.fine.ui.pulltorefresh.PullToRefreshBase.Mode#PULL_FROM_START} or
-         *                    {@link com.yuzhi.fine.ui.pulltorefresh.PullToRefreshBase.Mode#PULL_FROM_END} depending on which direction
+         * @param direction   - One of {@link com.json.base.ui.pulltorefresh.PullToRefreshBase.Mode#PULL_FROM_START} or
+         *                    {@link com.json.base.ui.pulltorefresh.PullToRefreshBase.Mode#PULL_FROM_END} depending on which direction
          *                    the user is pulling. Only useful when <var>state</var> is
-         *                    {@link com.yuzhi.fine.ui.pulltorefresh.PullToRefreshBase.State#PULL_TO_REFRESH} or
-         *                    {@link com.yuzhi.fine.ui.pulltorefresh.PullToRefreshBase.State#RELEASE_TO_REFRESH}.
+         *                    {@link com.json.base.ui.pulltorefresh.PullToRefreshBase.State#PULL_TO_REFRESH} or
+         *                    {@link com.json.base.ui.pulltorefresh.PullToRefreshBase.State#RELEASE_TO_REFRESH}.
          */
         public void onPullEvent(final PullToRefreshBase<V> refreshView, State state, Mode direction);
 
@@ -1549,7 +1549,7 @@ public abstract class PullToRefreshBase<T extends View> extends LinearLayout imp
 
         /**
          * When the UI is currently refreshing, caused by a call to
-         * {@link com.yuzhi.fine.ui.pulltorefresh.PullToRefreshBase#setRefreshing() setRefreshing()}.
+         * {@link com.json.base.ui.pulltorefresh.PullToRefreshBase#setRefreshing() setRefreshing()}.
          */
         MANUAL_REFRESHING(0x9),
 

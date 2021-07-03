@@ -3,9 +3,9 @@ package com.json.base.db.dao;
 import android.content.Context;
 
 import com.j256.ormlite.dao.Dao;
-import com.yuzhi.fine.db.DatabaseHelper;
-import com.yuzhi.fine.db.entity.Article;
-import com.yuzhi.fine.db.entity.User;
+import com.json.base.db.DatabaseHelper;
+import com.json.base.db.entity.Article;
+import com.json.base.db.entity.User;
 
 import java.sql.SQLException;
 import java.util.List;
