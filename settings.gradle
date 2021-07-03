@@ -1,5 +1,3 @@
 rootProject.name = "pda"
 include ':app'
-include ':model'
-include ':util'
-include ':net'
+include ':base'
