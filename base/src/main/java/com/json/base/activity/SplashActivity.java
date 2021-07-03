@@ -2,9 +2,6 @@ package com.json.base.activity;
 
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.v4.app.FragmentActivity;
-import android.support.v4.view.PagerAdapter;
-import android.support.v4.view.ViewPager;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.Animation;
@@ -12,10 +9,13 @@ import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.ImageView;
 
-import com.yuzhi.fine.R;
-import com.yuzhi.fine.ui.UIHelper;
-import com.yuzhi.fine.ui.viewpagerindicator.CirclePageIndicator;
-import com.yuzhi.fine.utils.SharedPreferences;
+import androidx.fragment.app.FragmentActivity;
+import androidx.viewpager.widget.ViewPager;
+
+import com.json.base.R;
+import com.json.base.ui.UIHelper;
+import com.json.base.ui.viewpagerindicator.CirclePageIndicator;
+import com.json.base.utils.SharedPreferences;
 
 /**
  * Created by tiansj on 15/7/29.
