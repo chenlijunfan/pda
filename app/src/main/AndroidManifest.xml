@@ -3,28 +3,10 @@
     package="com.json.pda">
 
     <application
-        android:name=".common.AppContext"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
-
-        <activity
-            android:name=".activity.SplashActivity"
-            android:label="@string/app_name"
-            android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
-        </activity>
-
-        <activity android:name=".activity.MainActivity" android:launchMode="singleTask" android:screenOrientation="portrait" />
-        <activity android:name=".activity.LoginActivity" android:screenOrientation="portrait" />
-        <activity android:name=".activity.HouseDetailActivity" android:screenOrientation="portrait"/>
-        <activity android:name=".activity.ImageGalleryActivity" android:screenOrientation="portrait"/>
-
     </application>
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>

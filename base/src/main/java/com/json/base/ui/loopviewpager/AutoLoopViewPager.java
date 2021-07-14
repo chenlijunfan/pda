@@ -3,8 +3,8 @@ package com.json.base.ui.loopviewpager;
 import android.content.Context;
 import android.os.Handler;
 import android.os.Message;
-import android.support.v4.view.MotionEventCompat;
-import android.support.v4.view.PagerAdapter;
+import androidx.core.view.MotionEventCompat;
+import androidx.viewpager.widget.PagerAdapter;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 
